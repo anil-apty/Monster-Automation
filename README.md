@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Monster Playwright
 
 Playwright and TypeScript with the native Playwright test runner.
@@ -80,3 +81,6 @@ shell getters, logout actions, and the full `loginToStudio` flow.
 Common actions use Playwright's native auto-waiting without fixed sleeps or forced clicks.
 
 Reference: [Playwright documentation](https://playwright.dev/docs/intro).
+=======
+# Monster-Automation
+>>>>>>> 85a4126 (Initial commit)
