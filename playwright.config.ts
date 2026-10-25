@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 // Set BASE_URL to override the default application URL.
-const baseURL = process.env.BASE_URL ?? 'https://monster.development.apty.io/';
+const baseURL = process.env.BASE_URL ?? 'https://webautomationlab.dev';
 const parsedURL = new URL(baseURL);
 if (!['http:', 'https:'].includes(parsedURL.protocol)) {
   throw new Error('BASE_URL must be an absolute HTTP or HTTPS URL.');
