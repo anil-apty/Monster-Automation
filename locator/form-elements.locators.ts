@@ -1,4 +1,4 @@
 export const FORM_ELEMENTS_LOCATORS = {
-  TEXT_INPUT: '[id="input_text"]',
-  PASSWORD_INPUT: '[id="input_password"]',
+  TEXT_INPUT: 'input[placeholder="Enter any text"]',
+  PASSWORD_INPUT: 'input[placeholder="Enter a password"]',
 } as const;
